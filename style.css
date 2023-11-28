@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(assets/background.jpg);
+    background-size: 100%;
+}
+
+.box {
+    background-color: black;
+    color: red;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    margin: 0;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.joinTxt {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+#loginBtn {
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100px;
+}
+
+#loginBtn:hover {
+    background-color: rgb(137, 0, 0);
+}
+
+#main {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    height: 15vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    background-color: black;
+    height: 8vh;
+    width: 100%;
+}
+
+.icon {
+    height: 7vh;
+    width: 7vh;
+    border-radius: 7vh;
+    background-image: url(assets/logo.png);
+    background-size: 100%;
+    margin-left: 1%;
+}
+
+.top p {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 19%;
+    margin-right: 18%;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logoutBtn {
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#logoutBtn:hover {
+    background-color: rgb(137, 0, 0);
+}
+
+#trailer {
+    width: 100%;
+}
+
+.jews {
+    background-color: rgb(45, 45, 45);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 1%;
+    padding: 4px;
+    height: 40vh;
+    width: 98%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right {
+    width: 50%;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.left {
+    width: 50%;
+}
+
+.left h1 {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.left button {
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+    margin-top: 170px;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.left button:hover {
+    background-color: rgb(137, 0, 0);
+}
+
+.one .right {
+    background-image: url(assets/anti.jpg);
+    background-size: 100%;
+}
+
+.two .right {
+    background-image: url(assets/tank.png);
+    background-size: 100%;
+}
+
+.three .right {
+    background-image: url(assets/work.jpg);
+    background-size: 100%;
+}
+
+.akhir {
+    height: 50vh;
+    display: flex;
+    font-family: fantasy;
+}
+
+.garis {
+    width: 0.05%;
+    background-color: rgb(45, 45, 45);
+}
+
+.kiri {
+    width: 33.3%;
+}
+
+.tengah {
+    width: 33.3%;
+    text-align: center;
+}
+
+.kanan {
+    width: 33.3%;
+}
+
+.kanan h2 {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.kanan ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: rgb(45, 45, 45);
+}
+
+.kanan ul li a {
+    color: rgb(45, 45, 45);
+}
+
+.lorem {
+    margin-bottom: 10px;
+}
